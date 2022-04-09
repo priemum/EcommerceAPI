@@ -4,7 +4,7 @@ import validator from 'validator';
 import { hash, verify } from 'argon2';
 import toJSON from './plugins/index';
 
-const userSchema = mongoose.Schema(
+const userSchema = mongoose.Schema(       
   {
     name: {
       type: String,
